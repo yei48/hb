@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днем рождения!</title>
+    <!-- Тег, скрывающий сайт от поисковиков -->
+    <meta name="robots" content="noindex, nofollow">
+    
+    <style>
+        /* Сбрасываем стандартные отступы */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Настройки фона и шрифта для всей страницы */
+        body {
+            background-color: #000000; /* Черный фон */
+            color: #ffffff; /* Белый текст */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Занимает всю высоту экрана */
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Контейнер для центрирования контента */
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Стиль для заголовка */
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding: 0 15px; /* Отступы от краев на мобильных */
+        }
+
+        /* Стиль для картинки */
+        .image-container img {
+            max-width: 100%; /* Картинка не выйдет за пределы экрана */
+            width: 350px; /* Небольшой размер картинки */
+            height: auto;
+            border-radius: 10px; /* Слегка скругляем углы (по желанию) */
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Легкое свечение */
+            margin-bottom: 30px;
+        }
+
+        /* Стиль для текста поздравления */
+        .message {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #cccccc; /* Слегка сероватый цвет, чтобы не слепило глаза */
+            padding: 0 20px; /* Отступы от краев */
+        }
+
+        /* Адаптивность для мобильных телефонов */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .message {
+                font-size: 1rem;
+            }
+            .image-container img {
+                width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>С днем рождения, Абильмансур</h1>
+        
+        <div class="image-container">
+            <!-- Убедитесь, что название файла картинки совпадает с тем, что написано здесь -->
+            <img src="birthday-img.jpg" alt="С Днем Рождения">
+        </div>
+
+        <p class="message">
+            поздравляю тебя с девяднадцатым днем рождения. у тебя только начинается новая пора, новое время, новые знакомства, новые пррблемы, новые решения, в общем... новая пора. желаю тебе достичь большего чем ты имеешь сейчас, не бояться будущего, не нервничать по мелочам и быть счастливым.
+        </p>
+    </div>
+
+</body>
+</html>
